@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en-US"><head>
+<title>Offers API | Michelle Friedrich</title>
+<link rel="stylesheet" href="convoy.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+<script src="convoy.js"></script>
+</head>
+<body>
+<div class="color-gradient-background"></div>
+<div class="header-title">MOCK OFFERS</div>
+<div class="page_nav">
+	<div id="prev_button" class="nav_buttons" onclick="prev_page()">Prev</div>
+	<div id="page_nav_text"></div>
+	<div id="next_button" class="nav_buttons" onclick="next_page()">Next</div>
+</div>
+
+<div id="numbered_page_buttons" class="page_nav">
+	<div id="nav_button_1" class="nav_buttons num_buttons" onclick="nav_button_press(1)">1</div>
+	<div id="nav_button_2" class="nav_buttons num_buttons" onclick="nav_button_press(2)">2</div>
+	<div id="nav_button_3" class="nav_buttons num_buttons" onclick="nav_button_press(3)">3</div>
+	<div id="nav_button_4" class="nav_buttons num_buttons" onclick="nav_button_press(4)">4</div>
+	<div id="nav_button_5" class="nav_buttons num_buttons" onclick="nav_button_press(5)">5</div>
+	<div id="nav_button_6" class="nav_buttons num_buttons" onclick="nav_button_press(6)">6</div>
+	<div id="nav_button_7" class="nav_buttons num_buttons" onclick="nav_button_press(7)">7</div>
+	<div id="nav_button_8" class="nav_buttons num_buttons" onclick="nav_button_press(8)">8</div>
+	<div id="nav_button_9" class="nav_buttons num_buttons" onclick="nav_button_press(9)">9</div>
+	<div id="nav_button_10" class="nav_buttons num_buttons" onclick="nav_button_press(10)">10</div>
+</div>
+
+<table id="offer_table">
+	<tr>
+		<td>Row</td>
+		<td class="sort-header" onclick="sort_table(0)">Miles</td>
+		<td class="sort-header" onclick="sort_table(1)">Origin City</td>
+		<td class="sort-header" onclick="sort_table(2)">Origin State</td>
+		<td class="sort-header" onclick="sort_table(3)">Origin Pickup Start</td>
+		<td class="sort-header" onclick="sort_table(4)">Origin Pickup End</td>
+		<td class="sort-header" onclick="sort_table(5)">Destination City</td>
+		<td class="sort-header" onclick="sort_table(6)">Destination State</td>
+		<td class="sort-header" onclick="sort_table(7)">Destination Dropoff Start</td>
+		<td class="sort-header" onclick="sort_table(8)">Destination Dropoff End</td>
+		<td class="sort-header" onclick="sort_table(9)">Offer</td>
+	</tr>
+</table>
+
+</body>
+</html>
